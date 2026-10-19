@@ -1,0 +1,7 @@
+hk GPA=4.00 endings=hk,explore honors=学业奖学金,优秀毕业表现 stats=100,99.13,100,100
+mainland GPA=4.00 endings=mainland,explore honors=学业奖学金,优秀毕业表现 stats=100,99.36,100,100
+phd GPA=4.00 endings=phd,explore honors=学业奖学金,优秀毕业表现 stats=100,100,90.59998,100
+explore GPA=4.00 endings=explore honors=学业奖学金,优秀毕业表现 stats=100,100,94.47997,100
+delay GPA=0.00 endings=delay honors= stats=26,37,39,17
+all GPA=4.00 endings=mainland,hk,phd,explore honors=学业奖学金,优秀毕业表现 stats=100,100,100,100
+PASS 1315 assertions

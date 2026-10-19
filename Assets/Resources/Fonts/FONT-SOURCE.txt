@@ -1,0 +1,7 @@
+Harbour Notebook Sans is a static weight-500 subset derived from Noto Sans SC.
+Source: https://github.com/google/fonts/tree/main/ofl/notosanssc
+License: SIL Open Font License 1.1; see OFL.txt in this folder.
+Subset and renamed with fontTools; all game C# copy is included. Assets are embedded,
+and Chinese display does not require fonts installed on the player's computer.
+To extend game text, run Tools/get_font.py and Tools/prepare_font.py, then delete and
+regenerate Notebook SDF.asset using the Unity menu 港硕这一年 / 准备场景与字体.

@@ -1,0 +1,48 @@
+PASS title screen opened
+UI 01-title activeTexts=8 overflow=0
+PASS button NewGame available
+PASS raycast reaches NewGame
+PASS button ConfirmNewGame available
+PASS raycast reaches ConfirmNewGame
+PASS button CloseGuide available
+PASS raycast reaches CloseGuide
+PASS intro survives guide close
+UI 02-arrival activeTexts=97 overflow=0
+PASS button EventChoice2 available
+PASS raycast reaches EventChoice2
+PASS intro choice applied
+UI 03-planner activeTexts=84 overflow=0
+PASS button Tab课程 available
+PASS raycast reaches Tab课程
+UI 04-courses activeTexts=59 overflow=0
+PASS button Tab目标 available
+PASS raycast reaches Tab目标
+UI 05-goals activeTexts=49 overflow=0
+PASS button Tab日程 available
+PASS raycast reaches Tab日程
+UI 06-schedule activeTexts=100 overflow=0
+PASS button ExecuteTurn available
+PASS raycast reaches ExecuteTurn
+PASS button ConfirmExecute available
+PASS raycast reaches ConfirmExecute
+PASS execution reaches event
+PASS save preserves pending event
+PASS button EventChoice0 available
+PASS raycast reaches EventChoice0
+PASS event settles once
+UI 07-summary activeTexts=93 overflow=0
+PASS summary saved
+PASS button NextRound available
+PASS raycast reaches NextRound
+PASS next round via UI
+PASS JSON save roundtrip preserves course progress
+PASS invalid saves safely rejected
+UI 08-choose-ending activeTexts=32 overflow=0
+PASS multiple endings selectable
+PASS button 读博深造  → available
+PASS raycast reaches 读博深造  →
+PASS ending selected through button
+UI 09-ending activeTexts=91 overflow=0
+PASS bundled TMP Chinese font present
+PASS illustration loaded
+SMOKE_OK
