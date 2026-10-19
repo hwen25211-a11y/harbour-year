@@ -9,7 +9,7 @@ f=TTFont(p)
 f=instantiateVariableFont(f,{'wght':500},inplace=True)
 # Keep all game glyphs plus printable ASCII; rerun after adding copy.
 chars=set(''.join(x.read_text() for x in (root/'Assets').rglob('*.cs')))
-chars.update(chr(c) for c in range(32,127));chars.update('−→←≥×＋％…✓—0123456789')
+chars.update(chr(c) for c in f.getBestCmap() if 0x3400 <= c <= 0x9FFF);chars.update(chr(c) for c in range(32,127));chars.update('−→←≥×＋％…✓—0123456789')
 opts=subset.Options();opts.name_IDs=['*'];opts.name_legacy=True;opts.name_languages=['*']
 s=subset.Subsetter(options=opts);s.populate(text=''.join(chars));s.subset(f)
 for record in f['name'].names:

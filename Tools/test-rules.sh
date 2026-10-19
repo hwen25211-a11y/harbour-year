@@ -7,5 +7,5 @@ if [[ ! -x "$UNITY_ROOT/MonoBleedingEdge/bin/mono" ]]; then
   exit 1
 fi
 mkdir -p Build/Checks
-"$UNITY_ROOT/MonoBleedingEdge/bin/mono" "$UNITY_ROOT/MonoBleedingEdge/lib/mono/4.5/mcs.exe" -define:HARBOUR_STANDALONE -out:Build/Checks/YearChecks.exe Assets/Scripts/YearModel.cs Assets/Scripts/YearEvents.cs Assets/Editor/YearChecks.cs
+"$UNITY_ROOT/MonoBleedingEdge/bin/mono" "$UNITY_ROOT/MonoBleedingEdge/lib/mono/4.5/mcs.exe" -define:HARBOUR_STANDALONE -out:Build/Checks/YearChecks.exe Assets/Scripts/YearModel.cs Assets/Scripts/YearRules.cs Assets/Scripts/YearLife.cs Assets/Scripts/YearEvents.cs Assets/Editor/YearChecks.cs
 "$UNITY_ROOT/MonoBleedingEdge/bin/mono" Build/Checks/YearChecks.exe
