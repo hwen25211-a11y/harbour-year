@@ -3,6 +3,7 @@ import zipfile, hashlib, json
 root=Path(__file__).resolve().parents[1]
 out=root/'release';out.mkdir(exist_ok=True)
 manifest={}
+LOCAL_ONLY={'港硕模拟器_策划决策与新增需求.md','港硕生活模拟器_游戏设计文档_V2.0.md'}
 def pack(name, files):
     dest=out/name
     with zipfile.ZipFile(dest,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
@@ -14,7 +15,7 @@ def pack(name, files):
 files=[]
 for folder in ['Assets','Packages','ProjectSettings','Tools','docs']:
     for p in (root/folder).rglob('*'):
-        if not p.is_file() or p.suffix=='.log' or p.name.endswith('-source.ttf') or '.DS_Store' in p.name:continue
+        if not p.is_file() or p.name in LOCAL_ONLY or '__pycache__' in p.parts or p.suffix in ('.pyc','.log') or p.name.endswith('-source.ttf') or '.DS_Store' in p.name:continue
         files.append((p,str(Path('HarbourYear-Unity')/p.relative_to(root))))
 for name in ['README.txt','README.md','CONTRIBUTING.md','.gitignore','.gitattributes','开始游戏.command','浏览器试玩.command']:files.append((root/name,str(Path('HarbourYear-Unity')/name)))
 pack('HarbourYear-UnitySource.zip',files)

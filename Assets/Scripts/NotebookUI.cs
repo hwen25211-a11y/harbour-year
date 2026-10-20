@@ -25,7 +25,7 @@ namespace HarbourYear
         {
             var im=Box(p,x,y,w,h,color??Navy,id??title);im.raycastTarget=true;var b=im.gameObject.AddComponent<Button>();b.targetGraphic=im;b.interactable=enabled;
             var colors=b.colors;colors.normalColor=Color.white;colors.highlightedColor=new Color(1.1f,1.07f,1.03f);colors.pressedColor=new Color(.84f,.84f,.84f);colors.selectedColor=new Color(1.07f,1.04f,1);colors.disabledColor=new Color(.7f,.7f,.7f,.6f);b.colors=colors;
-            float pad=Mathf.Min(10,w*.1f);Text(im.transform,title,pad,1,w-pad*2,h-2,size,textColor??White,false,TextAlignmentOptions.Midline);if(click!=null)b.onClick.AddListener(()=>{click();});return b;
+            float pad=Mathf.Min(10,w*.1f);Text(im.transform,title,pad,1,w-pad*2,h-2,size,textColor??White,false,TextAlignmentOptions.Midline);if(click!=null)b.onClick.AddListener(()=>{YearAudio.Tap();click();});return b;
         }
         public static void Bar(Transform p,float x,float y,float w,float value,Color c,float height=5)
         {Box(p,x,y,w,height,Pale);Box(p,x,y,Mathf.Max(0,w*Mathf.Clamp01(value/100f)),height,c);}

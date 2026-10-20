@@ -1,7 +1,9 @@
-hk GPA=4.00 endings=hk,explore honors=学业奖学金,优秀毕业表现 stats=100,99.13,100,100
-mainland GPA=4.00 endings=mainland,explore honors=学业奖学金,优秀毕业表现 stats=100,99.36,100,100
-phd GPA=4.00 endings=phd,explore honors=学业奖学金,优秀毕业表现 stats=100,100,90.59998,100
-explore GPA=4.00 endings=explore honors=学业奖学金,优秀毕业表现 stats=100,100,94.47997,100
-delay GPA=0.00 endings=delay honors= stats=26,37,39,17
-all GPA=4.00 endings=mainland,hk,phd,explore honors=学业奖学金,优秀毕业表现 stats=100,100,100,100
-PASS 1315 assertions
+hk CGPA=4.00 ending=hk offers=hk money=3266 stats=100,56.60001,81.67999,62.60001
+mainland CGPA=4.00 ending=mainland offers=mainland money=846 stats=100,56.60001,77.78001,68.8
+phd CGPA=4.00 ending=phd offers=phd money=966 stats=100,77.88002,35.2,34.2
+explore CGPA=4.00 ending=explore offers= money=996 stats=100,59.48001,34.52,33.52
+delay CGPA=0.00 ending=delay offers= money=2284 stats=21,21,31,22
+all CGPA=4.00 ending=phd offers=mainland,hk,phd money=2186 stats=100,77.88002,76.88,61.00001
+hk-search CGPA=4.00 ending=hk-search offers= money=996 stats=100,59.48001,34.52,33.52
+mainland-search CGPA=4.00 ending=mainland-search offers= money=996 stats=100,59.48001,34.52,33.52
+PASS 742 assertions

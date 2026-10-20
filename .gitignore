@@ -39,3 +39,7 @@ __pycache__/
 /Assets/Resources/Fonts/NotoSansSC.ttf.meta
 .DS_Store
 Thumbs.db
+
+# Local design references; never include these in source uploads.
+/港硕模拟器_策划决策与新增需求.md
+/港硕生活模拟器_游戏设计文档_V2.0.md

@@ -1,0 +1,15 @@
+v2 art provenance
+
+RoomV2.png — built-in image_gen
+Use case: illustration-story. Asset type: original 2D Unity game background for a Chinese postgraduate life sim set in Hong Kong. A warmly lit compact student's rented bedroom, modest wooden desk with laptop and a notebook, cream bed linen, small green plant, orange desk lamp, a half-unpacked suitcase near the bed, broad open window looking out toward dense Hong Kong hillside apartments and a distant harbour at dusk. Warm and lived-in, hopeful but ordinary student life. Refined pixel art with clearly defined consistent pixel clusters and crisp stepped edges, restrained detailed shading, realistic room proportions, not a cartoon or chibi style, no people, no written words, no lettering, no logos. Palette warm cream, muted navy, terracotta orange, sage green. Horizontal cinematic composition, room furnishings on left and right, beautiful window view center, usable as a calm background behind notebook UI. Wide landscape 1536x1024.
+
+HomeCG.png — built-in image_gen
+Original refined pixel art narrative illustration for a Hong Kong postgraduate student's winter holiday return home to mainland China. Cozy ordinary family dining room, three adults with realistic human proportions seen from behind or three-quarter angle sharing a home-cooked dinner, an older couple and their adult student child, steam rising from bowls, a travel suitcase by the doorway, soft warm lamp, intimate everyday scene, no identifiable real people, no written text, no logos. Crisp consistent pixel clusters, warm cream and muted navy with terracotta accents, restrained cinematic lighting, landscape 1536x1024.
+
+TravelCG.png — built-in image_gen
+Original refined pixel art narrative illustration for a Hong Kong postgraduate life-simulation game winter travel scene. A peaceful wide coastal view from a ferry deck, blue water, island hills, broad open sky with warm peach sunlight, railings and a small canvas travel bag in foreground, no people, no text, no logos. Mood: breathing room after a busy semester, the world feels wide again. Clear consistent pixel clusters, muted navy, sage and warm cream palette, realistic proportions, detailed but calm cinematic landscape 1536x1024.
+
+These are original generated scene illustrations, not extracted from reference games. Saved in Assets/Resources/Art/.
+Characters: original code-defined layered pixel geometry in Assets/Scripts/PixelPeople.cs; four bodies, 4 front and 4 back hairstyles per gender, 4 full outfits per gender. No external character art.
+Audio: original synthesized study loop and tap sound in Assets/Scripts/YearAudio.cs. No sampled music or external sound recording.
+

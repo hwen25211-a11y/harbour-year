@@ -1,48 +1,94 @@
-PASS title screen opened
-UI 01-title activeTexts=8 overflow=0
+UI 01-title overflow=0
 PASS button NewGame available
 PASS raycast reaches NewGame
-PASS button ConfirmNewGame available
-PASS raycast reaches ConfirmNewGame
+PASS intro shown
+UI 02-intro overflow=0
+PASS button IntroNext available
+PASS raycast reaches IntroNext
+UI 03-setup overflow=0
+UI 04-avatar overflow=0
+PASS button StartYear available
+PASS raycast reaches StartYear
+UI 05-guide overflow=0
 PASS button CloseGuide available
 PASS raycast reaches CloseGuide
-PASS intro survives guide close
-UI 02-arrival activeTexts=97 overflow=0
 PASS button EventChoice2 available
 PASS raycast reaches EventChoice2
-PASS intro choice applied
-UI 03-planner activeTexts=84 overflow=0
+PASS new schedule has 28 slots
+PASS empty slots survive JSON
+UI 06-planner-empty overflow=0
+PASS button Slot1 available
+PASS raycast reaches Slot1
+UI 07-picker-locked overflow=0
+PASS lecture grey outside timetable
+PASS locked internship disabled
+PASS button 返回课表 available
+PASS raycast reaches 返回课表
+PASS button FillClasses available
+PASS raycast reaches FillClasses
+PASS button FillRest available
+PASS raycast reaches FillRest
+UI 08-planner-filled overflow=0
 PASS button Tab课程 available
 PASS raycast reaches Tab课程
-UI 04-courses activeTexts=59 overflow=0
+UI 09-courses overflow=0
+PASS button Course0 available
+PASS raycast reaches Course0
+UI 10-course-detail overflow=0
+PASS button 收好课程档案 available
+PASS raycast reaches 收好课程档案
+PASS button Tab小组 available
+PASS raycast reaches Tab小组
+UI 11-teams overflow=0
+PASS button AssignRole0 available
+PASS raycast reaches AssignRole0
+UI 12-classmates overflow=0
+PASS button 返回 available
+PASS raycast reaches 返回
+PASS button Tab生活 available
+PASS raycast reaches Tab生活
+UI 13-housing overflow=0
+PASS button 商店 available
+PASS raycast reaches 商店
+UI 14-shop overflow=0
+PASS button 二手群 available
+PASS raycast reaches 二手群
+UI 15-market overflow=0
 PASS button Tab目标 available
 PASS raycast reaches Tab目标
-UI 05-goals activeTexts=49 overflow=0
+UI 16-goals overflow=0
 PASS button Tab日程 available
 PASS raycast reaches Tab日程
-UI 06-schedule activeTexts=100 overflow=0
 PASS button ExecuteTurn available
 PASS raycast reaches ExecuteTurn
+UI 17-confirm overflow=0
 PASS button ConfirmExecute available
 PASS raycast reaches ConfirmExecute
-PASS execution reaches event
-PASS save preserves pending event
-PASS button EventChoice0 available
-PASS raycast reaches EventChoice0
-PASS event settles once
-UI 07-summary activeTexts=93 overflow=0
-PASS summary saved
+PASS execution started
+PASS mid-execution resume
+UI 18-summary overflow=0
 PASS button NextRound available
 PASS raycast reaches NextRound
-PASS next round via UI
-PASS JSON save roundtrip preserves course progress
-PASS invalid saves safely rejected
-UI 08-choose-ending activeTexts=32 overflow=0
-PASS multiple endings selectable
-PASS button 读博深造  → available
-PASS raycast reaches 读博深造  →
-PASS ending selected through button
-UI 09-ending activeTexts=91 overflow=0
-PASS bundled TMP Chinese font present
-PASS illustration loaded
+PASS round advances
+UI 19-winter overflow=0
+PASS button Slot0 available
+PASS raycast reaches Slot0
+UI 20-winter-picker overflow=0
+PASS button 返回课表 available
+PASS raycast reaches 返回课表
+PASS bad saves rejected
+PASS explicit ending page
+UI 21-ending overflow=0
+PASS button ChooseEnding available
+PASS raycast reaches ChooseEnding
+UI 22-choose-ending overflow=0
+PASS button Endinghk available
+PASS raycast reaches Endinghk
+PASS multiple offers choose through UI
+UI 23-medical overflow=0
+PASS button EventChoice0 available
+PASS raycast reaches EventChoice0
+PASS medical resumes schedule
+PASS pixel room art present
+PASS Chinese font loaded
 SMOKE_OK
