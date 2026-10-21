@@ -2,11 +2,23 @@
 
 Unity + C# 开发的中文 2D 单机养成游戏。在香港读一年制硕士，安排课程、科研、工作和日常生活。没有恋爱攻略系统。
 
-当前为 **v2.0.0 试玩版**。完整学年为第一学期 8 轮、寒假 1 轮、第二学期 8 轮；常规轮每两周 28 个半日格，寒假安排两项活动。
+当前为 **v3.0.0 试玩版**。打开游戏默认进入 **轻松版四轮样例**：它由网页版《港硕生活模拟器 · 轻松版四轮样例》（a320095，源码提交 02dac96）完整移植而来，规则逐项一致；v2 的 17 轮完整学年作为 **经典版** 保留，可从设置里打开。
 
-![学生的房间](Assets/Resources/Art/RoomV2.png)
+![轻松版主页](docs/screenshots/v3-09-home.jpg)
 
-## 本版玩法
+## v3：轻松版四轮样例
+
+- **开始页面与开场**：海港夕阳背景、标题与四个图片按钮（新游戏／继续游戏／CG画廊／设置），开场短文可跳过；开始页面、开场与建档播放开场音乐，进入房间换成房间音乐。
+- **建档**：快速开局（名字＋男女形象）或详细设置（四项能力 120 点、经济条件、住房），与网页版相同。
+- **新主页**：夕阳出租屋与完整立绘；顶部日期／现金／精力／压力；“这段时间”“我的成长”两张卡片；主按钮按真实情况变化；底部六个入口与右上角消息、本轮回顾、设置。
+- **倾向排程与自动休整**：每两轮一个阶段选一次倾向（学业成长／香港生活／工作体验）；系统按截止进度排作业，预测会太累时换成休息；休整与临近截止冲突时只问一次；“放轻松一点”；最多两个特别安排；28 格详细日历可手动修改。
+- **原版规则引擎**：日历与公众假期顺延、四门课、个人作业与小组项目（组队、分工、打磨、补交）、期中考试与病假补考、兼职求职、二手市场与家具、随机事件、手账、回忆与目标。
+- **插图、旅行照片、声音**：4 张事件插图、维港与麦理浩径的风景与自拍、CG 画廊；声音默认关闭，背景音乐与音效分开调。
+- **存档**：与网页版轻松版同一格式（`HK-Master-Life-LITE-save*.json`），两边可以互相导入；Mac 版导出到桌面，浏览器版下载文件。
+
+## 经典版（v2 的 17 轮完整学年）
+
+完整学年为第一学期 8 轮、寒假 1 轮、第二学期 8 轮；常规轮每两周 28 个半日格，寒假安排两项活动。
 
 - **角色与开局**：姓名、男女、青年／中年、各性别独立设计的前发 4 款和后发 4 款、各 4 套服装；经济条件与住房可选。外观不影响能力。
 - **半日日程**：点击格子安排行动，一键填入课表、空格批量安排、交换两个格子。每门课每轮仅有两个固定上课时段，不能集中刷课。未解锁活动灰显并排在后面。
@@ -22,7 +34,7 @@ Unity + C# 开发的中文 2D 单机养成游戏。在香港读一年制硕士�
 
 1. Unity Hub 添加本仓库根目录。
 2. 使用 **Unity 2022.3.62f3c1** 打开，等待导入完成。依赖 uGUI 1.0.0 和 TextMeshPro 3.0.6。
-3. 打开 `Assets/Scenes/HarbourYear.unity`，点击 Play。
+3. 打开 `Assets/Scenes/HarbourYear.unity`，点击 Play（默认进入轻松版；经典版从设置里打开）。
 
 中文字体与美术资源已随源码提供；不依赖系统字体。角色姓名支持字体覆盖的常用汉字。
 
@@ -34,7 +46,8 @@ Unity + C# 开发的中文 2D 单机养成游戏。在香港读一年制硕士�
 ```sh
 ./Tools/build.sh mac
 ./Tools/build.sh web
-./Tools/test-rules.sh
+./Tools/test-rules.sh   # 经典版规则
+./Tools/test-lite.sh    # 轻松版规则；装了 Node.js 时与网页版引擎逐项比对
 ```
 
 Unity 安装路径不同时，可设置 `UNITY_BIN`（构建）和 `UNITY_ROOT`（规则检查）。Windows 开发者可从 Unity 菜单「港硕这一年」构建；尚无 Windows 原生可玩包。WebGL 需要通过 HTTP 服务运行，不要直接双击 HTML。
@@ -57,10 +70,19 @@ macOS 分享版未经过 Apple Developer ID 签名与公证，首次打开可能
 | 分层像素角色与原创声音 | `PixelPeople.cs`、`YearAudio.cs` |
 | 版本隔离存档与备份 | `YearSave.cs` |
 | 规则与界面检查 | `Assets/Editor/YearChecks.cs`、`YearSmoke.cs` |
+| 轻松版：日历、课表、数值目录 | `LiteData.cs` |
+| 轻松版：原版规则引擎（半日结算、作业、考试、组队、事件） | `LiteCore.cs` |
+| 轻松版：倾向排程、自动休整、快进停点、目标、独白、旅行 | `LitePace.cs` |
+| 轻松版：存档结构、JSON、导入导出 | `LiteModel.cs`、`LiteJson.cs`、`LiteSave.cs`、`Assets/Plugins/WebGL/LiteFiles.jslib` |
+| 轻松版：界面与声音 | `LiteGame.cs`、`LiteHome.cs`、`LitePanels.cs`、`LiteDialogs.cs`、`LiteUI.cs`、`LiteAudio.cs` |
+| 轻松版：素材 | `Assets/Resources/Lite/`（用户提供的插图、照片、按钮与音乐） |
+| 轻松版检查 | `Assets/Editor/LiteChecks.cs`、`LiteSmoke.cs`、`Tools/lite-diff/` |
 
 ## 验证与分享
 
-规则检查会生成 `docs/paths/` 的完整路线与 `docs/rules-results.txt`。Unity 交互检查覆盖开局、课表、锁定按钮、页面、执行中恢复、寒假、病假和毕业结局。验证详情见 [docs/VALIDATION.txt](docs/VALIDATION.txt)。
+轻松版：`Tools/test-lite.sh` 用 137 个脚本化试玩与网页版引擎逐字段比对（每轮结束时的完整存档），`LiteSmoke.Run` 在编辑器里用真实按钮从开始页面玩到四轮结束并截图（`docs/screenshots/v3-*.jpg`）。同步说明见 [docs/LITE-SYNC.txt](docs/LITE-SYNC.txt)。
+
+经典版：规则检查会生成 `docs/paths/` 的完整路线与 `docs/rules-results.txt`。Unity 交互检查覆盖开局、课表、锁定按钮、页面、执行中恢复、寒假、病假和毕业结局。验证详情见 [docs/VALIDATION.txt](docs/VALIDATION.txt)。
 
 ```sh
 python3 Tools/package.py
@@ -69,4 +91,4 @@ python3 Tools/package_share.py
 
 打包会包含当前原生版、浏览器版和源码。`Build/`、`release/`、本地设计参考文档、缓存和凭据均不进入 Git。本地设计参考文档也不会进入源码分享包。
 
-共同开发约定见 [CONTRIBUTING.md](CONTRIBUTING.md)。当前仓库未指定开源许可证；字体遵循 [SIL OFL](Assets/Resources/Fonts/OFL.txt)，TMP 保留随附许可证，美术提示词与原创声音说明见 `docs/ART-DIRECTION-V2.txt`。
+共同开发约定见 [CONTRIBUTING.md](CONTRIBUTING.md)。当前仓库未指定开源许可证；字体遵循 [SIL OFL](Assets/Resources/Fonts/OFL.txt)，TMP 保留随附许可证，美术提示词与原创声音说明见 `docs/ART-DIRECTION-V2.txt`；轻松版的插图、照片、界面图与音乐由用户提供（来源说明见 `docs/LITE-SYNC.txt`）。

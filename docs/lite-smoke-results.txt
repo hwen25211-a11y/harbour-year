@@ -1,0 +1,581 @@
+UI title truncated=0
+PASS continue disabled without save
+PASS button StartSound available
+PASS raycast reaches StartSound
+PASS sound can be enabled
+PASS button Settings available
+PASS raycast reaches Settings
+UI title-settings truncated=0
+PASS button Back:返回 available
+PASS raycast reaches Back:返回
+PASS button Gallery available
+PASS raycast reaches Gallery
+UI gallery-empty truncated=0
+PASS button GalleryBack available
+PASS raycast reaches GalleryBack
+PASS button NewGame available
+PASS raycast reaches NewGame
+UI prologue truncated=0
+PASS button PrologueStart available
+PASS raycast reaches PrologueStart
+UI setup-quick truncated=0
+PASS button Look:male available
+PASS raycast reaches Look:male
+PASS button Advanced available
+PASS raycast reaches Advanced
+UI setup-profile truncated=0
+PASS button ToEconomy available
+PASS raycast reaches ToEconomy
+UI setup-economy truncated=0
+PASS button ToHousing available
+PASS raycast reaches ToHousing
+UI setup-housing truncated=0
+PASS button Back:返回开始页面 available
+PASS raycast reaches Back:返回开始页面
+PASS setup back keeps title
+PASS button NewGame available
+PASS raycast reaches NewGame
+PASS button PrologueSkip available
+PASS raycast reaches PrologueSkip
+PASS button Look:female available
+PASS raycast reaches Look:female
+PASS button StartLife available
+PASS raycast reaches StartLife
+UI home truncated=0
+PASS new life planned
+PASS default budget
+PASS button PeriodMore available
+PASS raycast reaches PeriodMore
+UI plan-round1 truncated=0
+PASS button Details:specials available
+PASS raycast reaches Details:specials
+PASS button SpecialSlot available
+PASS raycast reaches SpecialSlot
+UI picker truncated=0
+PASS button Pick:1 available
+PASS raycast reaches Pick:1
+PASS button SpecialItem available
+PASS raycast reaches SpecialItem
+PASS button Pick:review available
+PASS raycast reaches Pick:review
+PASS button AddSpecial available
+PASS raycast reaches AddSpecial
+PASS special arrangement added
+PASS button Relax available
+PASS raycast reaches Relax
+PASS relax handled
+PASS button Tab:jobs available
+PASS raycast reaches Tab:jobs
+PASS button Job:fast_food available
+PASS raycast reaches Job:fast_food
+PASS job attempt recorded
+PASS button Tab:planner available
+PASS raycast reaches Tab:planner
+PASS button Speed available
+PASS raycast reaches Speed
+PASS button StartSchedule available
+PASS raycast reaches StartSchedule
+UI start-confirm truncated=0
+PASS button ConfirmStart available
+PASS raycast reaches ConfirmStart
+PASS planner auto-run advances
+PASS button Pause available
+PASS raycast reaches Pause
+PASS button Back:返回 available
+PASS raycast reaches Back:返回
+PASS button Nav:schedule available
+PASS raycast reaches Nav:schedule
+PASS button Tab:planner available
+PASS raycast reaches Tab:planner
+UI planner truncated=0
+PASS button Slot10 available
+PASS raycast reaches Slot10
+UI slot-picker truncated=0
+PASS button Back:返回 available
+PASS raycast reaches Back:返回
+PASS button Tab:jobs available
+PASS raycast reaches Tab:jobs
+UI jobs truncated=0
+PASS button Back:返回 available
+PASS raycast reaches Back:返回
+PASS button Nav:bag available
+PASS raycast reaches Nav:bag
+UI items truncated=0
+PASS button Tab:market available
+PASS raycast reaches Tab:market
+UI market truncated=0
+PASS button Buy:bun available
+PASS raycast reaches Buy:bun
+PASS bought bun
+PASS button Tab:furniture available
+PASS raycast reaches Tab:furniture
+UI furniture truncated=0
+PASS button Back:返回 available
+PASS raycast reaches Back:返回
+PASS button Nav:studies available
+PASS raycast reaches Nav:studies
+UI courses truncated=0
+PASS button Back:返回 available
+PASS raycast reaches Back:返回
+PASS button Nav:goals available
+PASS raycast reaches Nav:goals
+UI goals truncated=0
+PASS button Back:返回 available
+PASS raycast reaches Back:返回
+PASS button IconSettings available
+PASS raycast reaches IconSettings
+UI settings truncated=0
+PASS button Settings:profile available
+PASS raycast reaches Settings:profile
+UI settings-profile truncated=0
+PASS button Back:返回 available
+PASS raycast reaches Back:返回
+PASS button HudDate available
+PASS raycast reaches HudDate
+UI status truncated=0
+PASS button Back:返回 available
+PASS raycast reaches Back:返回
+PASS button MainButton available
+PASS raycast reaches MainButton
+UI trip truncated=0
+PASS button TripKeep available
+PASS raycast reaches TripKeep
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+UI event truncated=0
+PASS button EventChoice0 available
+PASS raycast reaches EventChoice0
+UI result truncated=0
+PASS button ResultContinue available
+PASS raycast reaches ResultContinue
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+UI round-review truncated=0
+PASS button NextRound available
+PASS raycast reaches NextRound
+PASS button Back:返回 available
+PASS raycast reaches Back:返回
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button Back:返回 available
+PASS raycast reaches Back:返回
+PASS button Nav:classmates available
+PASS raycast reaches Nav:classmates
+PASS button Course:research available
+PASS raycast reaches Course:research
+PASS button Invite:c02 available
+PASS raycast reaches Invite:c02
+UI invite truncated=0
+PASS button Back:返回 available
+PASS raycast reaches Back:返回
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+UI round-review truncated=0
+PASS button NextRound available
+PASS raycast reaches NextRound
+UI teams truncated=0
+PASS button AcceptTeams available
+PASS raycast reaches AcceptTeams
+UI focus truncated=0
+PASS button Focus:academic available
+PASS raycast reaches Focus:academic
+PASS button StartRound available
+PASS raycast reaches StartRound
+UI result truncated=0
+PASS button ResultContinue available
+PASS raycast reaches ResultContinue
+UI event truncated=0
+PASS button EventChoice0 available
+PASS raycast reaches EventChoice0
+UI result truncated=0
+PASS button ResultContinue available
+PASS raycast reaches ResultContinue
+PASS button Back:返回 available
+PASS raycast reaches Back:返回
+PASS button MainButton available
+PASS raycast reaches MainButton
+UI result truncated=0
+PASS button ResultContinue available
+PASS raycast reaches ResultContinue
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+UI result truncated=0
+PASS button ResultContinue available
+PASS raycast reaches ResultContinue
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+UI result truncated=0
+PASS button ResultContinue available
+PASS raycast reaches ResultContinue
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+UI event truncated=0
+PASS button EventChoice0 available
+PASS raycast reaches EventChoice0
+UI result truncated=0
+PASS button ResultContinue available
+PASS raycast reaches ResultContinue
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+UI round-review truncated=0
+PASS button NextRound available
+PASS raycast reaches NextRound
+PASS button Back:返回 available
+PASS raycast reaches Back:返回
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+UI event truncated=0
+PASS button EventChoice0 available
+PASS raycast reaches EventChoice0
+UI result truncated=0
+PASS button ResultContinue available
+PASS raycast reaches ResultContinue
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+UI event truncated=0
+PASS button EventChoice0 available
+PASS raycast reaches EventChoice0
+UI event truncated=0
+PASS button EventChoice0 available
+PASS raycast reaches EventChoice0
+UI result truncated=0
+PASS button ResultContinue available
+PASS raycast reaches ResultContinue
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+PASS button MainButton available
+PASS raycast reaches MainButton
+UI sample-end truncated=0
+PASS four-round sample reaches its end
+PASS 112 half-days recorded
+PASS button Back:返回 available
+PASS raycast reaches Back:返回
+PASS button Nav:journal available
+PASS raycast reaches Nav:journal
+UI journal truncated=0
+PASS button Tab:memories available
+PASS raycast reaches Tab:memories
+UI memories truncated=0
+PASS button Back:返回 available
+PASS raycast reaches Back:返回
+PASS button Nav:classmates available
+PASS raycast reaches Nav:classmates
+UI team truncated=0
+PASS button Back:返回 available
+PASS raycast reaches Back:返回
+PASS button IconMessages available
+PASS raycast reaches IconMessages
+UI messages truncated=0
+PASS button Back:返回 available
+PASS raycast reaches Back:返回
+PASS export decodes
+PASS bad saves rejected
+PASS schemaVersion 1 save upgrades (city→香港生活) 
+PASS job overflow repaired from the latest recommended shift 
+PASS button IconSettings available
+PASS raycast reaches IconSettings
+PASS button Settings:save available
+PASS raycast reaches Settings:save
+PASS button BackToTitle available
+PASS raycast reaches BackToTitle
+UI title-continue truncated=0
+PASS continue enabled
+PASS button Gallery available
+PASS raycast reaches Gallery
+UI gallery truncated=0
+PASS button Gallery:CG01 available
+PASS raycast reaches Gallery:CG01
+PASS zoom keeps keyboard focus on 关闭大图
+UI zoom truncated=0
+PASS button CloseZoom available
+PASS raycast reaches CloseZoom
+PASS button Back:返回 available
+PASS raycast reaches Back:返回
+PASS button Continue available
+PASS raycast reaches Continue
+PASS continue returns home
+PASS button IconSettings available
+PASS raycast reaches IconSettings
+PASS button Settings:profile available
+PASS raycast reaches Settings:profile
+PASS button OpenClassic available
+PASS raycast reaches OpenClassic
+PASS classic version opens
+UI classic-menu truncated=0
+PASS button BackToLite available
+PASS raycast reaches BackToLite
+PASS back to lite
+UI back-to-lite truncated=0
+LITE_SMOKE_OK

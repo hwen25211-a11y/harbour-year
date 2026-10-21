@@ -15,7 +15,7 @@ namespace HarbourYear.Editor
     {
         static YearSmoke(){EditorApplication.update+=Tick;}
         public static void Run(){SessionState.SetBool("HarbourSmoke",true);SessionState.SetFloat("HarbourStart",(float)EditorApplication.timeSinceStartup);EditorSceneManager.OpenScene(YearBuild.Scene);EditorApplication.isPlaying=true;}
-        static void Tick(){if(!SessionState.GetBool("HarbourSmoke",false))return;if(EditorApplication.timeSinceStartup-SessionState.GetFloat("HarbourStart",0)>210){File.WriteAllText("docs/smoke-failure.txt","Timed out");SessionState.SetBool("HarbourSmoke",false);EditorApplication.Exit(1);return;}if(EditorApplication.isPlaying&&UnityEngine.Object.FindObjectOfType<YearGame>()!=null&&UnityEngine.Object.FindObjectOfType<YearSmokeRunner>()==null)new GameObject("Smoke runner").AddComponent<YearSmokeRunner>();}
+        static void Tick(){if(!SessionState.GetBool("HarbourSmoke",false))return;if(EditorApplication.timeSinceStartup-SessionState.GetFloat("HarbourStart",0)>210){File.WriteAllText("docs/smoke-failure.txt","Timed out");SessionState.SetBool("HarbourSmoke",false);EditorApplication.Exit(1);return;}if(EditorApplication.isPlaying&&UnityEngine.Object.FindObjectOfType<YearGame>()==null&&HarbourYear.Lite.LiteGame.Instance!=null)HarbourYear.Lite.LiteGame.Instance.OpenClassic();if(EditorApplication.isPlaying&&UnityEngine.Object.FindObjectOfType<YearGame>()!=null&&UnityEngine.Object.FindObjectOfType<YearSmokeRunner>()==null)new GameObject("Smoke runner").AddComponent<YearSmokeRunner>();}
     }
     public class YearSmokeRunner:MonoBehaviour
     {
