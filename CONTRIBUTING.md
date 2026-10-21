@@ -21,6 +21,7 @@
 ## 按改动选择验证
 
 - 规则、课程、申请、事件和结局：运行 `Tools/test-rules.sh`，检查受影响的整年路线及边界情况。
+- 轻松版规则：运行 `Tools/test-lite.sh`（装了 Node.js 时会与网页版引擎逐项比对）；界面在编辑器菜单外用 `HarbourYear.Editor.LiteSmoke.Run` 从开始页面玩到四轮结束。
 - 界面：在编辑器或构建中检查可读性、按钮状态、滚动、弹窗和不同窗口大小。
 - 存档：检查新游戏、保存、退出、继续，以及事件和总结阶段的恢复。
 - 字体或文案：检查新增汉字是否显示完整；按 `Assets/Resources/Fonts/FONT-SOURCE.txt` 更新字体。

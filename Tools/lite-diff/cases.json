@@ -1,0 +1,1987 @@
+[
+{
+"name": "life-a",
+"seed": 12345,
+"focus": [
+"life",
+"life"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.1,
+"extras": false
+},
+{
+"name": "academic",
+"seed": 777,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.1,
+"extras": false
+},
+{
+"name": "work",
+"seed": 2024,
+"focus": [
+"work",
+"work"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.2,
+"extras": true
+},
+{
+"name": "mixed",
+"seed": 99,
+"focus": [
+"life",
+"work"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.95,
+"extras": true,
+"gender": "male"
+},
+{
+"name": "daily",
+"seed": 31337,
+"focus": [
+"academic",
+"life"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.5,
+"extras": true,
+"dayByDay": true
+},
+{
+"name": "seed1",
+"seed": 1,
+"focus": [
+"work",
+"academic"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.01,
+"extras": false
+},
+{
+"name": "big",
+"seed": 2147483000,
+"focus": [
+"life",
+"academic"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.3,
+"extras": true
+},
+{
+"name": "r0",
+"seed": 695425565,
+"focus": [
+"academic",
+"life"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.821,
+"extras": true,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r1",
+"seed": 461060839,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.07,
+"extras": true,
+"gender": "male",
+"dayByDay": true
+},
+{
+"name": "r2",
+"seed": 1214302568,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.05,
+"extras": true,
+"gender": "female",
+"dayByDay": true
+},
+{
+"name": "r3",
+"seed": 309785427,
+"focus": [
+"work",
+"academic"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.103,
+"extras": false,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r4",
+"seed": 1176272277,
+"focus": [
+"work",
+"academic"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.496,
+"extras": false,
+"gender": "male",
+"dayByDay": false
+},
+{
+"name": "r5",
+"seed": 1983075268,
+"focus": [
+"life",
+"life"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.794,
+"extras": false,
+"gender": "female",
+"dayByDay": true
+},
+{
+"name": "r6",
+"seed": 644780075,
+"focus": [
+"work",
+"life"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.288,
+"extras": false,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r7",
+"seed": 354253419,
+"focus": [
+"life",
+"academic"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.039,
+"extras": false,
+"gender": "male",
+"dayByDay": false
+},
+{
+"name": "r8",
+"seed": 752002366,
+"focus": [
+"work",
+"life"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.84,
+"extras": false,
+"gender": "male",
+"dayByDay": false
+},
+{
+"name": "r9",
+"seed": 139586394,
+"focus": [
+"academic",
+"work"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.285,
+"extras": true,
+"gender": "male",
+"dayByDay": true
+},
+{
+"name": "r10",
+"seed": 991483082,
+"focus": [
+"life",
+"academic"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.059,
+"extras": false,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r11",
+"seed": 854478761,
+"focus": [
+"life",
+"life"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.449,
+"extras": false,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r12",
+"seed": 1855392517,
+"focus": [
+"work",
+"life"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.683,
+"extras": true,
+"gender": "female",
+"dayByDay": true
+},
+{
+"name": "r13",
+"seed": 378424697,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.485,
+"extras": false,
+"gender": "male",
+"dayByDay": true
+},
+{
+"name": "r14",
+"seed": 312837672,
+"focus": [
+"life",
+"work"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.953,
+"extras": false,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r15",
+"seed": 1870414235,
+"focus": [
+"work",
+"work"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.399,
+"extras": true,
+"gender": "male",
+"dayByDay": true
+},
+{
+"name": "r16",
+"seed": 144627903,
+"focus": [
+"academic",
+"life"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.34,
+"extras": true,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r17",
+"seed": 1152379866,
+"focus": [
+"academic",
+"life"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.874,
+"extras": false,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r18",
+"seed": 2051851967,
+"focus": [
+"life",
+"work"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.123,
+"extras": false,
+"gender": "male",
+"dayByDay": false
+},
+{
+"name": "r19",
+"seed": 669697760,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.74,
+"extras": true,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r20",
+"seed": 440695868,
+"focus": [
+"work",
+"life"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.758,
+"extras": true,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r21",
+"seed": 560740613,
+"focus": [
+"work",
+"life"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.772,
+"extras": false,
+"gender": "male",
+"dayByDay": false
+},
+{
+"name": "r22",
+"seed": 1316897578,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.2,
+"extras": true,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r23",
+"seed": 1696757188,
+"focus": [
+"life",
+"life"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.693,
+"extras": false,
+"gender": "male",
+"dayByDay": false
+},
+{
+"name": "r24",
+"seed": 1552905459,
+"focus": [
+"life",
+"life"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.102,
+"extras": true,
+"gender": "male",
+"dayByDay": true
+},
+{
+"name": "r25",
+"seed": 1340172369,
+"focus": [
+"work",
+"academic"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.8,
+"extras": true,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r26",
+"seed": 1679982649,
+"focus": [
+"work",
+"academic"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.434,
+"extras": false,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r27",
+"seed": 2086618137,
+"focus": [
+"work",
+"life"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.743,
+"extras": true,
+"gender": "female",
+"dayByDay": true
+},
+{
+"name": "r28",
+"seed": 272812827,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.612,
+"extras": false,
+"gender": "male",
+"dayByDay": false
+},
+{
+"name": "r29",
+"seed": 752494410,
+"focus": [
+"academic",
+"work"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.014,
+"extras": false,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r30",
+"seed": 2004944006,
+"focus": [
+"academic",
+"life"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.028,
+"extras": true,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r31",
+"seed": 700056706,
+"focus": [
+"life",
+"work"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.061,
+"extras": false,
+"gender": "male",
+"dayByDay": false
+},
+{
+"name": "r32",
+"seed": 1750300172,
+"focus": [
+"work",
+"life"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.524,
+"extras": true,
+"gender": "male",
+"dayByDay": false
+},
+{
+"name": "r33",
+"seed": 1306861148,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.473,
+"extras": false,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r34",
+"seed": 1113145387,
+"focus": [
+"work",
+"work"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.883,
+"extras": true,
+"gender": "female",
+"dayByDay": true
+},
+{
+"name": "r35",
+"seed": 1658418094,
+"focus": [
+"academic",
+"work"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.76,
+"extras": false,
+"gender": "male",
+"dayByDay": false
+},
+{
+"name": "r36",
+"seed": 2090275229,
+"focus": [
+"work",
+"work"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.452,
+"extras": false,
+"gender": "male",
+"dayByDay": false
+},
+{
+"name": "r37",
+"seed": 531836784,
+"focus": [
+"work",
+"work"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.84,
+"extras": true,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r38",
+"seed": 678561451,
+"focus": [
+"academic",
+"work"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.073,
+"extras": false,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r39",
+"seed": 331671597,
+"focus": [
+"work",
+"work"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.253,
+"extras": true,
+"gender": "male",
+"dayByDay": true
+},
+{
+"name": "r40",
+"seed": 2045487042,
+"focus": [
+"academic",
+"life"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.99,
+"extras": false,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r41",
+"seed": 2134754675,
+"focus": [
+"work",
+"life"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.196,
+"extras": true,
+"gender": "male",
+"dayByDay": true
+},
+{
+"name": "r42",
+"seed": 1189813853,
+"focus": [
+"life",
+"life"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.331,
+"extras": false,
+"gender": "female",
+"dayByDay": true
+},
+{
+"name": "r43",
+"seed": 1972567121,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.272,
+"extras": false,
+"gender": "female",
+"dayByDay": true
+},
+{
+"name": "r44",
+"seed": 278218446,
+"focus": [
+"life",
+"work"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.149,
+"extras": false,
+"gender": "male",
+"dayByDay": false
+},
+{
+"name": "r45",
+"seed": 192118626,
+"focus": [
+"life",
+"academic"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.895,
+"extras": true,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r46",
+"seed": 1721484296,
+"focus": [
+"life",
+"academic"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.264,
+"extras": true,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r47",
+"seed": 1187696153,
+"focus": [
+"life",
+"life"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.527,
+"extras": true,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r48",
+"seed": 562415863,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.629,
+"extras": false,
+"gender": "female",
+"dayByDay": true
+},
+{
+"name": "r49",
+"seed": 1073932091,
+"focus": [
+"work",
+"academic"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.804,
+"extras": false,
+"gender": "female",
+"dayByDay": true
+},
+{
+"name": "r50",
+"seed": 1574278140,
+"focus": [
+"work",
+"work"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.246,
+"extras": true,
+"gender": "male",
+"dayByDay": false
+},
+{
+"name": "r51",
+"seed": 1172324745,
+"focus": [
+"life",
+"work"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.982,
+"extras": true,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r52",
+"seed": 746362614,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.625,
+"extras": false,
+"gender": "male",
+"dayByDay": true
+},
+{
+"name": "r53",
+"seed": 181429876,
+"focus": [
+"work",
+"life"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.693,
+"extras": true,
+"gender": "female",
+"dayByDay": true
+},
+{
+"name": "r54",
+"seed": 957401071,
+"focus": [
+"academic",
+"life"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.973,
+"extras": false,
+"gender": "female",
+"dayByDay": true
+},
+{
+"name": "r55",
+"seed": 1894915036,
+"focus": [
+"life",
+"academic"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.001,
+"extras": true,
+"gender": "male",
+"dayByDay": true
+},
+{
+"name": "r56",
+"seed": 1408787664,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.264,
+"extras": true,
+"gender": "male",
+"dayByDay": false
+},
+{
+"name": "r57",
+"seed": 846062698,
+"focus": [
+"academic",
+"life"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.084,
+"extras": false,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "r58",
+"seed": 1537584206,
+"focus": [
+"work",
+"life"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.149,
+"extras": false,
+"gender": "female",
+"dayByDay": true
+},
+{
+"name": "r59",
+"seed": 1793770640,
+"focus": [
+"work",
+"work"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.91,
+"extras": false,
+"gender": "female",
+"dayByDay": false
+},
+{
+"name": "g0",
+"seed": 971477687,
+"focus": [
+"work",
+"life"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.092,
+"extras": false,
+"gender": "female",
+"dayByDay": true,
+"grind": "job"
+},
+{
+"name": "g1",
+"seed": 304502735,
+"focus": [
+"academic",
+"work"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.482,
+"extras": false,
+"gender": "female",
+"dayByDay": false,
+"grind": "review"
+},
+{
+"name": "g2",
+"seed": 127885034,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.389,
+"extras": true,
+"gender": "female",
+"dayByDay": false,
+"grind": "job"
+},
+{
+"name": "g3",
+"seed": 1073254677,
+"focus": [
+"academic",
+"work"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.327,
+"extras": true,
+"gender": "female",
+"dayByDay": false,
+"grind": "job"
+},
+{
+"name": "g4",
+"seed": 1627771234,
+"focus": [
+"academic",
+"work"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.035,
+"extras": false,
+"gender": "male",
+"dayByDay": true,
+"grind": "job"
+},
+{
+"name": "g5",
+"seed": 830031502,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.105,
+"extras": false,
+"gender": "male",
+"dayByDay": false,
+"grind": "job"
+},
+{
+"name": "g6",
+"seed": 901495176,
+"focus": [
+"academic",
+"work"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.168,
+"extras": true,
+"gender": "female",
+"dayByDay": false,
+"grind": "review"
+},
+{
+"name": "g7",
+"seed": 289043725,
+"focus": [
+"academic",
+"work"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.03,
+"extras": false,
+"gender": "female",
+"dayByDay": false,
+"grind": "review"
+},
+{
+"name": "g8",
+"seed": 960837608,
+"focus": [
+"work",
+"academic"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.322,
+"extras": true,
+"gender": "male",
+"dayByDay": false,
+"grind": "review"
+},
+{
+"name": "g9",
+"seed": 579380293,
+"focus": [
+"work",
+"life"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.094,
+"extras": false,
+"gender": "female",
+"dayByDay": true,
+"grind": "review"
+},
+{
+"name": "g10",
+"seed": 457936654,
+"focus": [
+"life",
+"life"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.415,
+"extras": true,
+"gender": "female",
+"dayByDay": true,
+"grind": "review"
+},
+{
+"name": "g11",
+"seed": 33305479,
+"focus": [
+"work",
+"life"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.064,
+"extras": false,
+"gender": "female",
+"dayByDay": false,
+"grind": "review"
+},
+{
+"name": "g12",
+"seed": 1346998123,
+"focus": [
+"academic",
+"life"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.363,
+"extras": true,
+"gender": "female",
+"dayByDay": false,
+"grind": "job"
+},
+{
+"name": "g13",
+"seed": 1894488072,
+"focus": [
+"life",
+"work"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.024,
+"extras": true,
+"gender": "male",
+"dayByDay": true,
+"grind": "job"
+},
+{
+"name": "g14",
+"seed": 551863352,
+"focus": [
+"life",
+"work"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.26,
+"extras": false,
+"gender": "female",
+"dayByDay": true,
+"grind": "job"
+},
+{
+"name": "g15",
+"seed": 1201230074,
+"focus": [
+"work",
+"work"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.106,
+"extras": false,
+"gender": "female",
+"dayByDay": true,
+"grind": "job"
+},
+{
+"name": "g16",
+"seed": 957145326,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.141,
+"extras": false,
+"gender": "female",
+"dayByDay": true,
+"grind": "review"
+},
+{
+"name": "g17",
+"seed": 1913279574,
+"focus": [
+"life",
+"life"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.462,
+"extras": true,
+"gender": "male",
+"dayByDay": false,
+"grind": "review"
+},
+{
+"name": "g18",
+"seed": 45653732,
+"focus": [
+"work",
+"work"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.034,
+"extras": true,
+"gender": "female",
+"dayByDay": false,
+"grind": "review"
+},
+{
+"name": "g19",
+"seed": 973005003,
+"focus": [
+"work",
+"life"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.397,
+"extras": false,
+"gender": "male",
+"dayByDay": true,
+"grind": "job"
+},
+{
+"name": "g20",
+"seed": 1934530462,
+"focus": [
+"academic",
+"life"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.286,
+"extras": false,
+"gender": "male",
+"dayByDay": false,
+"grind": "review"
+},
+{
+"name": "g21",
+"seed": 1307531725,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.497,
+"extras": false,
+"gender": "male",
+"dayByDay": false,
+"grind": "job"
+},
+{
+"name": "g22",
+"seed": 946014853,
+"focus": [
+"life",
+"work"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.155,
+"extras": true,
+"gender": "female",
+"dayByDay": true,
+"grind": "review"
+},
+{
+"name": "g23",
+"seed": 1067837482,
+"focus": [
+"work",
+"work"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.448,
+"extras": true,
+"gender": "female",
+"dayByDay": false,
+"grind": "review"
+},
+{
+"name": "g24",
+"seed": 1113243980,
+"focus": [
+"academic",
+"life"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.446,
+"extras": true,
+"gender": "male",
+"dayByDay": true,
+"grind": "job"
+},
+{
+"name": "g25",
+"seed": 1725962087,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.292,
+"extras": true,
+"gender": "female",
+"dayByDay": true,
+"grind": "job"
+},
+{
+"name": "g26",
+"seed": 1797649145,
+"focus": [
+"academic",
+"work"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.411,
+"extras": true,
+"gender": "male",
+"dayByDay": true,
+"grind": "review"
+},
+{
+"name": "g27",
+"seed": 1784335875,
+"focus": [
+"life",
+"life"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.358,
+"extras": false,
+"gender": "male",
+"dayByDay": false,
+"grind": "review"
+},
+{
+"name": "g28",
+"seed": 597266124,
+"focus": [
+"work",
+"academic"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.155,
+"extras": false,
+"gender": "female",
+"dayByDay": false,
+"grind": "job"
+},
+{
+"name": "g29",
+"seed": 976745181,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.39,
+"extras": false,
+"gender": "female",
+"dayByDay": false,
+"grind": "job"
+},
+{
+"name": "g30",
+"seed": 2058278588,
+"focus": [
+"academic",
+"work"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.412,
+"extras": true,
+"gender": "female",
+"dayByDay": false,
+"grind": "review"
+},
+{
+"name": "g31",
+"seed": 384611762,
+"focus": [
+"academic",
+"life"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.197,
+"extras": false,
+"gender": "female",
+"dayByDay": true,
+"grind": "job"
+},
+{
+"name": "g32",
+"seed": 278979433,
+"focus": [
+"life",
+"life"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.188,
+"extras": false,
+"gender": "male",
+"dayByDay": false,
+"grind": "review"
+},
+{
+"name": "g33",
+"seed": 212524953,
+"focus": [
+"work",
+"work"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.121,
+"extras": true,
+"gender": "female",
+"dayByDay": false,
+"grind": "job"
+},
+{
+"name": "g34",
+"seed": 562389785,
+"focus": [
+"work",
+"academic"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.019,
+"extras": true,
+"gender": "male",
+"dayByDay": false,
+"grind": "job"
+},
+{
+"name": "g35",
+"seed": 1975165450,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.4,
+"extras": true,
+"gender": "male",
+"dayByDay": false,
+"grind": "review"
+},
+{
+"name": "g36",
+"seed": 1010524191,
+"focus": [
+"academic",
+"work"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.289,
+"extras": false,
+"gender": "female",
+"dayByDay": false,
+"grind": "job"
+},
+{
+"name": "g37",
+"seed": 1784901853,
+"focus": [
+"work",
+"work"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.156,
+"extras": true,
+"gender": "female",
+"dayByDay": false,
+"grind": "review"
+},
+{
+"name": "g38",
+"seed": 2079709841,
+"focus": [
+"work",
+"work"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.1,
+"extras": false,
+"gender": "female",
+"dayByDay": false,
+"grind": "review"
+},
+{
+"name": "g39",
+"seed": 1156036270,
+"focus": [
+"academic",
+"work"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.246,
+"extras": false,
+"gender": "female",
+"dayByDay": false,
+"grind": "job"
+},
+{
+"name": "s0",
+"seed": 1337671203,
+"focus": [
+"life",
+"work"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.504,
+"extras": false,
+"gender": "female",
+"dayByDay": true,
+"sickDay": 31,
+"grind": "review"
+},
+{
+"name": "s1",
+"seed": 336835655,
+"focus": [
+"academic",
+"life"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.228,
+"extras": true,
+"gender": "female",
+"dayByDay": true,
+"sickDay": 50
+},
+{
+"name": "s2",
+"seed": 876497719,
+"focus": [
+"life",
+"academic"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.457,
+"extras": true,
+"gender": "male",
+"dayByDay": true,
+"sickDay": 50,
+"grind": "review"
+},
+{
+"name": "s3",
+"seed": 2088078429,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.523,
+"extras": true,
+"gender": "female",
+"dayByDay": true,
+"sickDay": 23
+},
+{
+"name": "s4",
+"seed": 1343745361,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.179,
+"extras": true,
+"gender": "female",
+"dayByDay": true,
+"sickDay": 50,
+"grind": "review"
+},
+{
+"name": "s5",
+"seed": 712652085,
+"focus": [
+"life",
+"work"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.04,
+"extras": true,
+"gender": "male",
+"dayByDay": true,
+"sickDay": 9
+},
+{
+"name": "s6",
+"seed": 396797508,
+"focus": [
+"life",
+"life"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.154,
+"extras": false,
+"gender": "male",
+"dayByDay": true,
+"sickDay": 36
+},
+{
+"name": "s7",
+"seed": 1179110136,
+"focus": [
+"life",
+"life"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.272,
+"extras": false,
+"gender": "female",
+"dayByDay": true,
+"sickDay": 50
+},
+{
+"name": "s8",
+"seed": 1996419596,
+"focus": [
+"life",
+"life"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.465,
+"extras": true,
+"gender": "male",
+"dayByDay": true,
+"sickDay": 36,
+"grind": "review"
+},
+{
+"name": "s9",
+"seed": 929810351,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.551,
+"extras": true,
+"gender": "female",
+"dayByDay": true,
+"sickDay": 44
+},
+{
+"name": "s10",
+"seed": 657497372,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.598,
+"extras": true,
+"gender": "female",
+"dayByDay": true,
+"sickDay": 50
+},
+{
+"name": "s11",
+"seed": 1145748544,
+"focus": [
+"life",
+"academic"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.496,
+"extras": true,
+"gender": "male",
+"dayByDay": true,
+"sickDay": 50,
+"grind": "review"
+},
+{
+"name": "s12",
+"seed": 1967243942,
+"focus": [
+"work",
+"academic"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.503,
+"extras": true,
+"gender": "female",
+"dayByDay": true,
+"sickDay": 31
+},
+{
+"name": "s13",
+"seed": 888676880,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.09,
+"extras": false,
+"gender": "male",
+"dayByDay": true,
+"sickDay": 50
+},
+{
+"name": "s14",
+"seed": 2145980293,
+"focus": [
+"work",
+"academic"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.413,
+"extras": true,
+"gender": "male",
+"dayByDay": true,
+"sickDay": 44
+},
+{
+"name": "s15",
+"seed": 1936730620,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.376,
+"extras": true,
+"gender": "male",
+"dayByDay": true,
+"sickDay": 50,
+"grind": "review"
+},
+{
+"name": "s16",
+"seed": 584781562,
+"focus": [
+"work",
+"work"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.472,
+"extras": false,
+"gender": "female",
+"dayByDay": true,
+"sickDay": 36,
+"grind": "review"
+},
+{
+"name": "s17",
+"seed": 1201118373,
+"focus": [
+"work",
+"work"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.159,
+"extras": false,
+"gender": "male",
+"dayByDay": true,
+"sickDay": 44
+},
+{
+"name": "s18",
+"seed": 1246959623,
+"focus": [
+"academic",
+"life"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.403,
+"extras": true,
+"gender": "male",
+"dayByDay": true,
+"sickDay": 44,
+"grind": "review"
+},
+{
+"name": "s19",
+"seed": 742131334,
+"focus": [
+"work",
+"life"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.522,
+"extras": false,
+"gender": "male",
+"dayByDay": true,
+"sickDay": 44
+},
+{
+"name": "s20",
+"seed": 1136749163,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.17,
+"extras": true,
+"gender": "male",
+"dayByDay": true,
+"sickDay": 50
+},
+{
+"name": "s21",
+"seed": 2010527476,
+"focus": [
+"work",
+"work"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.374,
+"extras": false,
+"gender": "male",
+"dayByDay": true,
+"sickDay": 31
+},
+{
+"name": "s22",
+"seed": 420045352,
+"focus": [
+"academic",
+"work"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.131,
+"extras": false,
+"gender": "female",
+"dayByDay": true,
+"sickDay": 9
+},
+{
+"name": "s23",
+"seed": 355935724,
+"focus": [
+"academic",
+"academic"
+],
+"choice": 0,
+"conflict": "push",
+"roll": 0.581,
+"extras": true,
+"gender": "female",
+"dayByDay": true,
+"sickDay": 9
+},
+{
+"name": "s24",
+"seed": 816685562,
+"focus": [
+"work",
+"work"
+],
+"choice": 0,
+"conflict": "rest",
+"roll": 0.143,
+"extras": false,
+"gender": "female",
+"dayByDay": true,
+"sickDay": 44
+},
+{
+"name": "s25",
+"seed": 598134472,
+"focus": [
+"life",
+"academic"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.33,
+"extras": true,
+"gender": "male",
+"dayByDay": true,
+"sickDay": 23
+},
+{
+"name": "s26",
+"seed": 2042477950,
+"focus": [
+"work",
+"life"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.251,
+"extras": false,
+"gender": "male",
+"dayByDay": true,
+"sickDay": 9,
+"grind": "review"
+},
+{
+"name": "s27",
+"seed": 1279766341,
+"focus": [
+"life",
+"work"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.581,
+"extras": false,
+"gender": "male",
+"dayByDay": true,
+"sickDay": 36
+},
+{
+"name": "s28",
+"seed": 2034702,
+"focus": [
+"life",
+"academic"
+],
+"choice": 1,
+"conflict": "rest",
+"roll": 0.195,
+"extras": false,
+"gender": "male",
+"dayByDay": true,
+"sickDay": 9
+},
+{
+"name": "s29",
+"seed": 486052563,
+"focus": [
+"life",
+"life"
+],
+"choice": 1,
+"conflict": "push",
+"roll": 0.23,
+"extras": false,
+"gender": "female",
+"dayByDay": true,
+"sickDay": 23
+}
+]

@@ -11,18 +11,20 @@ namespace HarbourYear
     public partial class YearGame:MonoBehaviour
     {
         public YearState State{get;private set;}
-        RectTransform root,modal;Texture2D harbour,roomArt;string tab="日程",toast="";bool menu=true,paused,swapMode;int swapFirst=-1,speed=1,selectedCourse,teamCourse;float tick,toastUntil;
+        RectTransform root,modal;GameObject canvasObject,cameraObject;Texture2D harbour,roomArt;string tab="日程",toast="";bool menu=true,paused,swapMode;int swapFirst=-1,speed=1,selectedCourse,teamCourse;float tick,toastUntil;
         public bool MenuVisible{get{return menu;}}
-        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)] static void Boot(){if(FindObjectOfType<YearGame>()==null)new GameObject("Harbour Year / Game").AddComponent<YearGame>();}
+        // v3 默认进入轻松版；经典 17 轮版从轻松版的“设置 · 经典版”打开。
+        public static void Launch(){if(FindObjectOfType<YearGame>()==null)new GameObject("Harbour Year / Game").AddComponent<YearGame>();}
+        void BackToLite(){if(State!=null&&!menu)YearSave.Write(State);Destroy(canvasObject);Destroy(cameraObject);Destroy(gameObject);HarbourYear.Lite.LiteGame.Launch(true);}
         void Awake()
         {
             Application.targetFrameRate=60;Application.runInBackground=true;harbour=Resources.Load<Texture2D>("Art/Harbour");roomArt=Resources.Load<Texture2D>("Art/RoomV2");
             NotebookUI.Font=Resources.Load<TMP_FontAsset>("Fonts/Notebook SDF");if(NotebookUI.Font==null){NotebookUI.Font=TMP_FontAsset.CreateFontAsset(Resources.Load<Font>("Fonts/NotebookSans"));NotebookUI.Font.atlasPopulationMode=AtlasPopulationMode.Dynamic;}
-            var go=new GameObject("Notebook Canvas",typeof(RectTransform),typeof(Canvas),typeof(CanvasScaler),typeof(GraphicRaycaster));go.GetComponent<Canvas>().renderMode=RenderMode.ScreenSpaceOverlay;
+            var go=new GameObject("Notebook Canvas",typeof(RectTransform),typeof(Canvas),typeof(CanvasScaler),typeof(GraphicRaycaster));canvasObject=go;go.GetComponent<Canvas>().renderMode=RenderMode.ScreenSpaceOverlay;
             var scaler=go.GetComponent<CanvasScaler>();scaler.uiScaleMode=CanvasScaler.ScaleMode.ScaleWithScreenSize;scaler.referenceResolution=new Vector2(1600,1000);scaler.screenMatchMode=CanvasScaler.ScreenMatchMode.Expand;
             root=Rect("Notebook",go.transform,0,0,1600,1000);root.anchorMin=root.anchorMax=root.pivot=new Vector2(.5f,.5f);root.anchoredPosition=Vector2.zero;
             if(FindObjectOfType<EventSystem>()==null)new GameObject("Event System",typeof(EventSystem),typeof(StandaloneInputModule));
-            var cam=new GameObject("Paper Camera",typeof(Camera)).GetComponent<Camera>();cam.clearFlags=CameraClearFlags.SolidColor;cam.backgroundColor=Paper;cam.orthographic=true;
+            var cam=new GameObject("Paper Camera",typeof(Camera)).GetComponent<Camera>();cameraObject=cam.gameObject;cam.clearFlags=CameraClearFlags.SolidColor;cam.backgroundColor=Paper;cam.orthographic=true;
             YearAudio.Start(gameObject);Render();
         }
         void Update()
@@ -57,6 +59,7 @@ namespace HarbourYear
             Button(root,"继续我的手账",62,811,453,57,ContinueGame,Pale,Navy,22,YearSave.Exists,"Continue");
             Text(root,"17 轮 · 8 门课程 · 可组合角色 · 多种去向",62,902,478,33,17,Muted);
             if(YearSave.HasLegacy)Text(root,"旧版存档已保留；新版规则需要新开一局。",62,942,475,28,15,Muted);
+            Button(root,"← 回到 v3 轻松版",360,18,190,44,BackToLite,Pale,Navy,16,true,"BackToLite");
         }
         void DrawIntro()
         {
