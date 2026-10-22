@@ -92,3 +92,7 @@ python3 Tools/package_share.py
 打包会包含当前原生版、浏览器版和源码。`Build/`、`release/`、本地设计参考文档、缓存和凭据均不进入 Git。本地设计参考文档也不会进入源码分享包。
 
 共同开发约定见 [CONTRIBUTING.md](CONTRIBUTING.md)。当前仓库未指定开源许可证；字体遵循 [SIL OFL](Assets/Resources/Fonts/OFL.txt)，TMP 保留随附许可证，美术提示词与原创声音说明见 `docs/ART-DIRECTION-V2.txt`；轻松版的插图、照片、界面图与音乐由用户提供（来源说明见 `docs/LITE-SYNC.txt`）。
+
+## 联系方式
+
+联系邮箱：[yuruqiao5@gmail.com](mailto:yuruqiao5@gmail.com)
